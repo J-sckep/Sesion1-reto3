@@ -4,3 +4,5 @@ function random(min, max, decimals) {
   max = max * presition;
   return Math.floor(Math.random() * (max - min + 1) + min) / presition;
 }
+
+module.exports = random;

@@ -1,3 +1,5 @@
+const random = require('./random');
+
 function Burbuja() {
   var numeros = [];
   for (let i = 0; i <= 15; i++) {
